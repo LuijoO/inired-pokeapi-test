@@ -154,11 +154,17 @@ body {
 .sidebar__items {
   display: flex;
   flex-direction: column;
+  margin: 0 30px;
 
 }
 
 .sidebar__items a {
-  color: #EBF8FE;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 9px;
+  color: #b5b5b5;
   font-size: 20px;
   margin-bottom: 40px;
   text-decoration: none;

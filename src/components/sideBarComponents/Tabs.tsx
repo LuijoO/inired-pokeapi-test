@@ -1,11 +1,10 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
-import TabNav from './TabNav';
+import TabNav from '../category2/TabNav';
 
 const Tabs = () => {
   return (
     <div className='tabs'>
-      <h1>tab Example.</h1>
       <TabNav />
       <Outlet />
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import MainRoutes from './components/Routes';
-import SideBar from './components/SideBar';
+import SideBar from './components/sideBarComponents/SideBar';
 import './styles.css'
 
 function App() {
